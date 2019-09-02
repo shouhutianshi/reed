@@ -1,0 +1,36 @@
+{
+  "name": "reed",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "reed": "./bin/reed.js"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "xiaoyang <xy1328317909@gmail.com> (https://github.com/shouhutianshi)",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "axios": "^0.19.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest-node": "^2.0.2",
+    "babel-register": "^6.26.0",
+    "commander": "^3.0.1",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^7.0.0",
+    "ora": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
